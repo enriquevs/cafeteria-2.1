@@ -1,0 +1,114 @@
+header {
+
+  position: fixed;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  height: 250px;
+  width: 100%;
+  background-color: grey;
+}
+.header_h1{
+font-size: 50px;
+text-align: center;
+padding: 10px;
+background-color: orange;
+height: 100%;
+width: 100%;
+margin-left: 50px;
+}
+.header_menu{
+height: 100px;
+width: 300px;
+padding: 10px;
+background-color: red;
+margin-left: 100px;
+margin-bottom: 0px;
+float: right;
+
+}
+
+
+
+/*body {
+
+}
+footer{
+  background-color: grey;
+  text-align: center;
+  font-size: 20px;
+}
+.carrusel{
+  margin-top: 50p;
+}
+.slider{
+  width: 500;
+  height: 250;
+}
+.shop{
+  float: right;
+  margin-right: 20px;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+.menu_img{
+  width: 400px;
+  height: 350px;
+  margin: 15px 10px;
+  margin: 1em;
+  border: 2px solid black;
+  display:inline-block;
+  float: right;
+}
+.social_media {
+  height: 50px;
+  background-color: white;
+}
+.media{
+  height: 50px;
+  width: 50px;
+}
+.description{
+  background-color: red;
+  height: 500
+}
+
+/*crepas*/
+
+.crepa{
+  width: 400px;
+  height: 350px;
+  margin: 15px 10px;
+  margin: 1em;
+  border: 2px solid black;
+  display:inline-block;
+}
+
+/*pasteles*/
+.pastel{
+  width: 400px;
+  height: 350px;
+  margin: 15px 10px;
+  margin: 1em;
+  border: 2px solid black;
+  display:inline-block;
+}
+
+
+/*cafe*/
+.cafe{
+  width: 400px;
+  height: 350px;
+  margin: 15px 10px;
+  margin: 1em;
+  border: 2px solid black;
+  display:inline-block;
+}
+
+div{
+border: 1px solid black;
+}
+*/
