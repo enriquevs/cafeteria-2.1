@@ -16,5 +16,5 @@ window.addEventListener('load' , function () {
        indiceImagenes = 0;
     }
   }
-  // setInterval(cambiarImagenes, 200);
+  setInterval(cambiarImagenes, 200);
 });
