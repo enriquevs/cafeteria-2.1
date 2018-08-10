@@ -2,50 +2,54 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Café</title>
     <link rel="stylesheet" href="estiloscafeteria.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <title>La Bella Epoca</title>
   </head>
-    <header class="nav">
+    <header>
       <h1>La Bella Epoca</h1><br>
       <div class="menu_header">
-        <a href="indexcafeteria.html">Inicio</a>
+        <a href="cafe.html">Cafe</a>
         <a href="crepas.html">Crepas</a>
         <a href="pasteles.html">Pasteles</a>
       </div>
     </header>
     <body>
-      <div class="header">
-        <h2>Café</h2>
-      </div>
+      <section class="carrousel">
+        <article class="carrousel__container">
+          <button class=" carrousel__button preview"><</button>
+
+          <picture class="active carrousel__picture imagen1" data-position="0">
+
+          </picture>
+          <picture class="carrousel__picture imagen2" data-position="1"></picture>
+          <picture class="carrousel__picture imagen3" data-position="2"></picture>
+
+          <button class="carrousel__button next">></button>
+        </article>
+      </section>
       <section>
-        <div class="card">
-          <img class="cafe" src="img/expresso.jpg" alt="">
-          <p class="menu_cafe">Expresso<span class="price">$25</span></p>
+        <p>La Bella Epoca nace en 2018 de un deseo de servir la mejor taza de café posible en un ambiente bonito y relajado.
+          Nace del deseo de hacer comunidad, basado en un comercio justo y sustentable, cuidando cada uno de los detalles, desde el productor y el grano hasta el barista y la taza.
+          Amamos el buen café y nos facina lo que produce: Las platicas, las ideas, los encuentros, los momentos.
+          Queremos construir y ser parte del mundo en el que queremos vivir.
+        </p>
+      </section>
+      <section>
+        <div class="menu_imagenes">
+          <img class="menu_img" src="img/cafe_menu.jpg" href="cafe.html" alt="">
+          <img class="menu_img" src="img/cake_menu.jpeg" href="pasteles.html" alt="">
+          <img class="menu_img" src="img/crepe_menu.jpg" href="crepas.html" alt="">
         </div>
-        <div class="card">
-          <img class="cafe" src="img/capuccino.jpg" alt="">
-          <p class="menu_cafe">Capuccino<span class="price">$30</span></p>
-        </div><br>
-        <div class="card">
-          <img class="cafe" src="img/hotcocoa.jpg" alt="">
-          <p class="menu_cafe">Chocolate caliente<span class="price">$30</span></p>
-        </div>
-        <div class="card">
-          <img class="cafe" src="img/cho_frio.jpg" alt="">
-          <p class="menu_cafe">Chocolate frio<span class="price">$30</span></p>
-        </div><br>
-        <div class="card">
-          <img class="cafe" src="img/frapuccino.jpg" alt="">
-          <p class="menu_cafe">Frapuccino<span class="price">$45</span></p>
-        </div>
-        <div class="card">
-          <img class="cafe" src="img/hotcocoa.jpg" alt="">
-          <p class="menu_cafe">Mokaccino<span class="price">$45</span></p>
-        </div><br>
+      </section>
+      <section>
+        <p>El deseo de encontrar y preparar el café de mejor calidad posible es el corazón de La Bella Epoca. Un gran café no es el resultado de la buena suerte, por eso cuidamos cada paso en el proceso. El café que encuentras en La Bella Epoca es el resultado de la búsqueda por la armonía en la notas y la sencillez en la preparación.
+        </p>
+      </section>
+      <section class="store">
+        <img class="location" src="img/cafeteria.jpeg" alt="">
       </section>
       <footer>
         <span class="footer_text">Contacto</span><br>
@@ -87,10 +91,13 @@
 				   <input class="mensaje" type="text" name="user_mesaje" placeholder="Mensaje">
 			    </div>
 			    <div class="button_form">
-				   <button class="borrar">Borrar</button>
-				   <button class="enviar">Enviar</button>
+				  <!-- <button type="reset" class="borrar">Borrar</button>-->
+				   <button type="button" class="enviar">Enviar</button>
 			    </div>
 		     </form>
       </section>
+      <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+      <script src="Cafeteria.js"></script>
+      <script src="./firebase.js"></script>
     </body>
 </html>

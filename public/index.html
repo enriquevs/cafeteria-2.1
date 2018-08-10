@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">-->
   </head>
   <body>
-    <header>      
-      <div class="header_h1"><h1>Cafeteria</h1></div>
-      <div class="header_menu">
+    <header>
+      <div class="title">Cafeteria</div>
+      
         <div class="menu_cafe"><a href="cafe.html">Cafe</a></div>
         <div class="menu_crepas"><a href="crepas.html">Crepas</a></div>
         <div class="menu_pasteles"><a href="pasteles.html">Pasteles</a><div>
-      </div>
+
     </header>
 
     <!--<section>
@@ -64,5 +64,24 @@
     <!--<script src="bootstrap/js/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>-->
     <script src="index.js" type="text/javascript"></script>
+
+
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBxb_mziH9fpLtlsU8GuXktZsVY2EGp-CI",
+    authDomain: "proyectofinalcafeteria.firebaseapp.com",
+    databaseURL: "https://proyectofinalcafeteria.firebaseio.com",
+    projectId: "proyectofinalcafeteria",
+    storageBucket: "proyectofinalcafeteria.appspot.com",
+    messagingSenderId: "161941602982"
+  };
+  firebase.initializeApp(config);
+</script>
   </body>
 </html>
